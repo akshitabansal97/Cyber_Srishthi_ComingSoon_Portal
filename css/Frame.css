@@ -1,0 +1,19 @@
+.myframe
+{
+     position: relative;
+     display:block;
+     margin:5px;
+     background-color: black;
+}
+body{
+  background-color:black;
+  margin:0px !important;
+}
+
+#mymain_container
+{
+     position: fixed;
+     display: inline-flex;
+     background-color:black;
+     z-index: -10;
+}

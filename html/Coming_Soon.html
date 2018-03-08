@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>"Coming Soon"</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+
+        <link rel="stylesheet" href="../css/Frame.css">
+        <script src="../js/Cockpit.js"></script>
+        <script src="../js/Frame.js"></script>
+    </head>
+    <body onload="init();" style="overflow-x: hidden;">
+        <!-- main container contains frame. frames move along with container. -->
+
+        <div>
+             <div>
+                  <img src="../resources/images/intro.png" id="introimg" style="width:100px; height: 100px;"/>
+             </div>
+        </div>
+        <div id="mymain_container" style="top:50px; left:20px;">
+            <div class="myframe" id="frame_1">
+                <canvas id="intro1" width="1000px" height="600px">
+            </div>
+            <div class="myframe" id="frame_2">
+                <canvas id="intro2" width="1000px" height="600px">
+            </div>
+        </div>
+        <div id="dummy" style="top:2000px; position:absolute; display:block;  left:2000px;">temp
+          </div>
+    </body>
+</html>
